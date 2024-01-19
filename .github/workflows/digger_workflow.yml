@@ -25,8 +25,5 @@ jobs:
           digger-token: ${{ secrets.DIGGER_TOKEN }}
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
-<<<<<<< HEAD
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-=======
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
->>>>>>> 67c8c56 (Digger Test)
+
